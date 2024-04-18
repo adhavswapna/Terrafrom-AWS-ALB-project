@@ -19,6 +19,6 @@ variable "instance_type" {
 }
 
 variable "aws_ami" {
-  description = "Value of the Name tag for the AMI"
+  description = "Value tag for the AMI"
   default     = "ami-080e1f13689e07408"
 }
